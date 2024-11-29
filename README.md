@@ -1,0 +1,1 @@
+# glass-store-manager
