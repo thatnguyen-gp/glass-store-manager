@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.10",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
+    "@mui/material-nextjs": "^6.1.9",
+    "@toolpad/core": "^0.10.0",
     "axios": "^1.7.8",
+    "graphql": "^16.9.0",
     "next": "15.0.3",
+    "next-auth": "5.0.0-beta.25",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

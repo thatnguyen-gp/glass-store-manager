@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "glass-store-manager",
+  "private_key_id": "e8d427b39e592812318fc9e5ce1fee802caa02bb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtvjaapVCoAa5U\nbxU05ryoVwL7Gbj4rtwxXiBugVdahqSvdl8DvNdWeqv/gyajlLdly2I2Km99EgK5\nCPaVWzIiU6OMowY6+TOLIwmdfvi/VOuvSta4tEMFtLpfKrQtcjQQ8dRUe/cJjnDr\ntc1GCneD0otP/rsdqY4wppKgDGwALbq3lIdQ0bMmdoJSEG32lDq6q8S63AJtR4iY\n38wneetrNOmINbwG0fZfti/hQvnmY1hVXaIvn7MQkQf+UyADQNqLMfK4nRzVqIrR\nqbwfJfVJy3pe2SyhPRw0unSFKdPxnjl9OGJhSqExJ5Rs4K1USaMFIYdcufpNyr+p\nIzX+uyNBAgMBAAECggEAAfzv5zbmcUQZQhCsh4vvJn/3lUPDyMV7ciDETAkBcZQ7\n1MdZqmAu5We6Ixs7+UA0FWwz2TA4HinzS2zth8nHQGEaBhU+Q4HjE8yYiUUdxInm\nUbDdO+s4HxvkmNhf8mstnfBrQEI6eLefPCgHsfos4h6QU7lNW9DUwy+MwVvf1Bd5\n0gCw1FOvKsVWn1czI3RmI/5NWlBDezx+xb6VzRZO0L3VlM2vKLJ0thmxtcjvxWyD\n760tYuU1KS6dNekJf/DJCor65SbbWfUZHj13QfimV864U3xLaByf7VvXQuanjQ7o\nW4FkfvKZ4I1nTjq4JDCZepCP+Sdl5rl1VJ2sHkWygQKBgQDlBjhjBc1VCjbu0wJ5\n8RAaGPKQ5Wyfkp3hkJ0KI1ga+oM8Qz4BMNu1cZvEg2+x0huA8XcMsZhL9uFitUZE\nr6pGEGLfAZB4gBPSQyIrKI5lcfPdd7d5Bwum+v9XoLiZFPAP0J2h/OIZW8JybKdt\nnlzFYuAKTILlvIJm8/jqtf+FcQKBgQDCNRggzhFXkjody8n1KeTxsdsnZvWVewzs\nJd9vaXNEL1ZQ6d2PE9CQAiPn+he1eHIeIHCMQBIaU+ZWSC40vcMaHrKX0VoZhljZ\n9vZ7Iu9B2kdVsHhHJOJ70dw4QbOcQMlmQ7dBlyNklcTEc6thvjTxCU3VX1tIJGWE\nANkRgfFS0QKBgDzFT8UGzxtXoIfyud99ldY29HZ6Sj51eytVYjZEdqaB/rzI4vUR\n79rPkJOuhL7cj6vBZuOZZF4T3m6Ax2qGalo5EuM12Q4AfkH2ymRFWLOWby0/DRIy\nSmc+hu7LmPAV3DV2F73aCmzMKmaOakbuFJPTzrss3jbztG55In21WV4hAoGAN095\nzLYDuGYcCSpmHV3OJ4vY97LaFLWT65mptghZXL0Cn07L3BjvmGQTp9jRccyY672f\ncEI7JaZpfn9WMY0uCL1fbd+hAo4Btiog7tb3P1EUafI1f0Wg/1S4nIkRx1moQmjc\nw2BxIw+Il869q7vJRjC5KyDaVYSQKPU43USd31ECgYEAlofsS+RSDJ2pj7dujUTg\nRvq5Xb2V0qC6jF+v5B3TETAXd8UxscEuX3J7FFNdYzscst6DQNOy4hPo4oMEyynj\nLjPo70GwvE23/1Q72fj1L/3lVCX8gPa7runiYP0k3McvFwP924depizxNFAymdsb\n/bMMYEmTNqq2Oj0TRAFLL+Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-idm59@glass-store-manager.iam.gserviceaccount.com",
+  "client_id": "101473500100709669938",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-idm59%40glass-store-manager.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

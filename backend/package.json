@@ -4,25 +4,53 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-be-dev": "nodemon src/app.ts",
-    "start-be": "npx ts-node src/app.ts"
+    "start-be-dev": "nodemon src/server.ts --env-file=.env",
+    "start-be-debug-dev": "nodemon --inspect src/server.ts --env-file=.env",
+    "start-be": "npx ts-node src/server.ts --env-file=.env",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.5",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "errorhandler": "^1.5.1",
     "express": "^4.21.1",
-    "mongoose": "^8.8.3"
+    "express-flash": "^0.0.2",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.18.1",
+    "firebase-admin": "^13.0.1",
+    "graphql": "^16.9.0",
+    "lodash": "^4.17.21",
+    "lusca": "^1.7.0",
+    "passport": "^0.7.0",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/bluebird": "^3.5.42",
+    "@types/body-parser": "^1.19.5",
+    "@types/compression": "^1.7.5",
     "@types/cors": "^2.8.17",
+    "@types/errorhandler": "^1.5.3",
     "@types/express": "^5.0.0",
+    "@types/express-flash": "^0.0.5",
+    "@types/express-session": "^1.18.1",
+    "@types/lodash": "^4.17.13",
+    "@types/lusca": "^1.7.5",
     "@types/node": "^22.10.1",
+    "@types/passport": "^1.0.17",
+    "@types/winston": "^2.4.4",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
   }
 }
