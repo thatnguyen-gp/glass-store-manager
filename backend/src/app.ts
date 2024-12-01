@@ -14,7 +14,7 @@ import admin = require('firebase-admin');
 const app = express();
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount as ServiceAccount)
+  credential: admin.credential.cert(serviceAccount as ServiceAccount)
 });
 
 // Express configuration
@@ -29,8 +29,8 @@ app.use(flash());
 app.use(lusca.xframe('SAMEORIGIN'));
 app.use(lusca.xssProtection(true));
 app.use((req, res, next) => {
-    res.locals.user = req.user;
-    next();
+  res.locals.user = req.user;
+  next();
 });
 // app.use((req, res, next) => {
 //     // After successful login, redirect back to the intended page
@@ -48,7 +48,7 @@ app.use((req, res, next) => {
 // });
 
 app.use(
-express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 })
+  express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 })
 );
 
 app.use(cors());

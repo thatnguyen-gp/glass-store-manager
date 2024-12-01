@@ -8,6 +8,7 @@ import Instagram from 'next-auth/providers/instagram';
 import Tiktok from 'next-auth/providers/tiktok';
 import Linkedin from 'next-auth/providers/linkedin';
 import type { Provider } from 'next-auth/providers';
+import Credentials from 'next-auth/providers/credentials';
 
 
 const providers: Provider[] = [
@@ -49,6 +50,22 @@ const providers: Provider[] = [
   Linkedin({
     clientId: process.env.LINKEDIN_CLIENT_ID,
     clientSecret: process.env.LINKEDIN_CLIENT_SECRET,
+  }),
+  Credentials({
+    credentials: {
+      email: { label: 'Email Address', type: 'email' },
+      password: { label: 'Password', type: 'password' },
+    },
+    authorize(c) {
+      if (c.password === '1234@qwer' && c.email === 'test@thatnguyen.com') {
+        return {
+          id: 'test',
+          name: 'That Nguyen',
+          email: String(c.email),
+        };
+      }
+      return null;
+    },
   }),
 ];
 
